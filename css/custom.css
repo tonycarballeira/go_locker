@@ -4,8 +4,13 @@
 
 .navbar-default {
     background-color: white;
-    box-shadow: 2px 2px 2px #d0d4d9;
     border: none;
+    box-shadow: 2px 2px 2px #d0d4d9;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .navbar-nav > li > a {
@@ -24,7 +29,7 @@
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 		margin-left: -40px;
@@ -36,6 +41,16 @@
 
 	.left {
 		margin-left: -22px;
+	}
+
+	.righty {
+		position: relative;
+		left: 110px;
+	}
+
+	.lefty {
+		position: relative;
+		right: 25px;
 	}
 
 }
@@ -52,4 +67,13 @@
 
 body {
 	background-color: #fbfbfb;
+}
+
+.lead {
+	color: #999999;
+	margin-left: 5px;
+}
+
+.sep {
+	margin-top: 20px;
 }
