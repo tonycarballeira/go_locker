@@ -1,0 +1,55 @@
+.navbar-fixed-top {
+    min-height: 70px;
+}
+
+.navbar-default {
+    background-color: white;
+    box-shadow: 2px 2px 2px #d0d4d9;
+    border: none;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 70px;
+}
+
+@media (max-width: 767px) {
+    
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+	}
+}
+
+@media (min-width: 768px) {
+
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: -40px;
+	}
+
+	.right {
+		margin-right: -22px;
+	}
+
+	.left {
+		margin-left: -22px;
+	}
+
+}
+
+.image-bg-fixed-height {
+	background: url('../images/Untitled-6.png') no-repeat center center scroll;
+    height: 650px;
+    margin-top: 20px;
+}
+
+.section {
+	margin-bottom: 40px;
+}
+
+body {
+	background-color: #fbfbfb;
+}
