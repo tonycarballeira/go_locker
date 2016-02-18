@@ -143,6 +143,10 @@ p.one span {
 		margin-bottom: 30px;
 	}
 
+	.image2L {
+		margin-left: -75px;
+	}
+
 }
 
 
@@ -171,6 +175,10 @@ p.one span {
 		margin-left: 4%;
 	}
 
+	.image2L {
+		margin-left: 4%;
+	}
+
 }
 
 /* BETWEEN 767 AND 994 */
@@ -191,6 +199,14 @@ p.one span {
 
 	.col-sm-10 {
     	margin-top: -10px;
+	}
+
+	.image2L {
+		margin-left: 15%;
+	}
+
+	.image2R {
+		margin-left: 0px;
 	}
 
 }
@@ -238,11 +254,20 @@ p.one span {
 	}
 
 	.image1L {
-		margin-top: 10px;
+		margin-top: 60px;
 	}
 
 	.image1R {
 		left: 10px;
+	}
+
+	.image2L {
+		right: 525px;
+	}
+
+	.image2R {
+		left: 495px;
+		margin-top: 82px;
 	}
 
 }
@@ -270,6 +295,19 @@ p.one span {
 
 	.image1R {
 		left: 45px;
+	}
+
+	.image2L {
+		right: 570px;
+	}
+
+	.image2R {
+		left: 555px;
+		margin-top: 82px;
+	}
+
+	.four {
+		margin-bottom: 140px;
 	}
 
 }
