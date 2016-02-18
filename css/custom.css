@@ -105,6 +105,7 @@ p.one span {
 .table_sec {
 	height: 700px;
 	background-color: white;
+	margin-bottom: 0px;
 }
 
 .table {
@@ -183,7 +184,7 @@ tr.noBorder td {
 
 
 .table_div {
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 .head {
@@ -195,6 +196,41 @@ tr.noBorder td {
 	margin-top: 40px;
 }
 
+
+/* FOOTER */
+
+.footer_sec {
+	height: 400px;
+	background-color: #f6f9fc;
+	margin-bottom: 0px;
+}
+
+.foot {
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin: 0 0 10px 0;
+}
+
+.uno {
+	margin: 0 0 15px 0;
+	color: #7b8994;
+	font-weight: bold;
+}
+
+li>a {
+	color: #7b8994;
+}
+
+.fa-globe {
+	font-size: 20px;
+}
 
 
 /* BELOW 767 */
@@ -284,6 +320,14 @@ tr.noBorder td {
 		margin-top: 60px;
 	}
 
+	.footer_sec {
+		height: 905px;
+	}
+
+	ul {
+		text-align: center;
+	}
+
 }
 
 
@@ -329,6 +373,14 @@ tr.noBorder td {
 		width: 120px;
 	}
 
+	.footer_sec {
+		height: 905px;
+	}
+
+	ul {
+		text-align: center;
+	}
+
 }
 
 @media all and (max-width: 680px) and (min-width: 450px) {
@@ -357,6 +409,14 @@ tr.noBorder td {
 
 	.btn-success {
 		width: 100px;
+	}
+
+	.footer_sec {
+		height: 905px;
+	}
+
+	ul {
+		text-align: center;
 	}
 
 
@@ -402,6 +462,14 @@ tr.noBorder td {
 		width: 120px;
 	}
 
+	.footer_sec {
+		height: 905px;
+	}
+
+}
+
+@media (max-width: 990px) {
+	
 }
 
 /* ABOVE 995 */
