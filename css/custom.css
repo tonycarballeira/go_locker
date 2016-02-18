@@ -39,7 +39,7 @@ body {
 /* SECTION */
 
 .section {
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 }
 
 /* TEXT BELOW HEADERS */
@@ -100,22 +100,9 @@ p.one span {
 	margin-bottom: -7px;
 }
 
-
 /* BELOW 767 */
 
 @media (max-width: 767px) {
-    
-    .navbar-nav > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-	}
-
-	.righty {
-		margin-left: -15px;
-    	margin-top: 50px;
-	}
 
 	.check {
 		margin-left: 17px;
@@ -141,16 +128,56 @@ p.one span {
     	margin-top: -10px;
 	}
 
+}
+
+/* BELOW 400 */
+
+@media (max-width: 450px) {
+
+
+	.image1R {
+		margin-left: -75px;
+	}
+
+	.section {
+		margin-bottom: 30px;
+	}
+
+}
+
+
+/* BETWEEN 410 AND 767 */
+@media all and (max-width: 767px) and (min-width: 450px) {
+
+    
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+	}
+
+	.righty {
+		margin-left: -15px;
+    	margin-top: 50px;
+	}
+
+	
 	.section {
 		margin-bottom: 10px
 	}
+
+	.image1R {
+		margin-left: 4%;
+	}
+
 }
 
 /* BETWEEN 767 AND 994 */
 
 @media all and (max-width: 994px) and (min-width: 767px) {
 	.righty {
-		margin-left: -15px;
+		margin-left: 15%;
     	margin-top: 50px;
 	}
 	
@@ -210,6 +237,14 @@ p.one span {
 		margin-left: 17px;
 	}
 
+	.image1L {
+		margin-top: 10px;
+	}
+
+	.image1R {
+		left: 10px;
+	}
+
 }
 
 /* ABOVE 1200 */
@@ -223,6 +258,18 @@ p.one span {
 	.righty {
 		left: 138px;
 		margin-top: -10px;
+	}
+
+	.two {
+		margin-bottom: 120px;
+	}
+
+	.image1L {
+		margin-top: 70px;	
+	}
+
+	.image1R {
+		left: 45px;
 	}
 
 }
