@@ -207,7 +207,6 @@ tr.noBorder td {
 
 .foot {
 	margin-top: 60px;
-	margin-left: 30px;
 }
 
 ul {
@@ -328,6 +327,20 @@ li>a {
 		text-align: center;
 	}
 
+	.globe {
+		margin-top: -45px;
+	}
+
+	.table_sec {
+		margin-bottom: 0px;
+	}
+
+	.col-sm-12 {
+		padding-left: 0;
+	}
+
+
+
 }
 
 
@@ -353,12 +366,12 @@ li>a {
 	}
 
 	.image1R {
-		margin-left: 4%;
+		margin-left: 12%;
 		margin-bottom: 40px;
 	}
 
 	.image2L {
-		margin-left: 4%;
+		margin-left: 12%;
 	}
 
 	.noBorder>tbody>tr>td.pad {
@@ -379,6 +392,18 @@ li>a {
 
 	ul {
 		text-align: center;
+	}
+
+	.globe {
+		margin-top: -45px;
+	}
+
+	.table_sec {
+		margin-bottom: 0px;
+	}
+
+	.col-sm-12 {
+		padding-left: 0;
 	}
 
 }
@@ -417,6 +442,22 @@ li>a {
 
 	ul {
 		text-align: center;
+	}
+
+	.globe {
+		margin-top: -45px;
+	}
+
+	.col-sm-12 {
+		padding-left: 0;
+	}
+
+	.image1R {
+		margin-left: 7%;
+	}
+
+	.image2L {
+		margin-left: 7%;
 	}
 
 
@@ -463,7 +504,11 @@ li>a {
 	}
 
 	.footer_sec {
-		height: 905px;
+		height: 450px;
+	}
+
+	.globe {
+		margin-top: -25px;
 	}
 
 }
@@ -539,6 +584,10 @@ li>a {
 	    padding: 0px;
 	}
 
+	.foot {	
+		margin-left: 30px;
+	}
+
 }
 
 /* ABOVE 1200 */
@@ -578,6 +627,10 @@ li>a {
 	.four {
 		margin-bottom: 140px;
 	}
+
+	.foot {	
+		margin-left: 30px;
+}
 
 }
 
